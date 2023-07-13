@@ -3,3 +3,4 @@ data/sentences
 data/words
 data/sentences.txt
 data/words.txt
+main_model/model_snapshots
