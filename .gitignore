@@ -4,3 +4,6 @@ data/words
 data/sentences.txt
 data/words.txt
 main_model/model_snapshots
+.DS_Store
+data/.DS_Store
+main_model/.DS_Store
