@@ -7,3 +7,6 @@ main_model/model_snapshots
 .DS_Store
 data/.DS_Store
 main_model/.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints
