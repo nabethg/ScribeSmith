@@ -24,3 +24,9 @@
 
 10 directories, 7 files
 ```
+
+## Notes
+
+- Network might be learning that white background = real and black background = fake
+  - White pixels disappear during later epochs
+- Possible hyperparameter: different learning rates for the different networks
