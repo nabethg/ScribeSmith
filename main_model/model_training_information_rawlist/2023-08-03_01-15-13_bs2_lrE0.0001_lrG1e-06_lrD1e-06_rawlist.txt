@@ -1,0 +1,1 @@
+['epoch', 'generator and encoder train error', 'discriminator train accuracy', 'recognizer train error', 'generator and encoder val error', 'discriminator val accuracy', 'recognizer val error']

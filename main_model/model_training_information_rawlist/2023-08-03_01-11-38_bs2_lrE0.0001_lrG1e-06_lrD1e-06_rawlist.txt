@@ -1,0 +1,7 @@
+['epoch', 'generator and encoder train error', 'discriminator train accuracy', 'recognizer train error', 'generator and encoder val error', 'discriminator val accuracy', 'recognizer val error']
+[353.490966796875, 344.777099609375, 350.58251953125, 332.4812316894531, 330.5323791503906]
+[array(0.45000002, dtype=float32), array(0.6, dtype=float32), array(0.7, dtype=float32), array(0.8, dtype=float32), array(0.75, dtype=float32)]
+[tensor(1.0493), tensor(1.0011), tensor(1.3010), tensor(0.9878), tensor(0.9333)]
+[360.6236267089844, 335.8297424316406, 360.9748229980469, 382.11151123046875, 373.007568359375]
+[0.5, 0.5, 0.75, 0.75, 0.5]
+[tensor(0.9286), tensor(0.8214), tensor(0.8333), tensor(0.8690), tensor(0.9167)]
