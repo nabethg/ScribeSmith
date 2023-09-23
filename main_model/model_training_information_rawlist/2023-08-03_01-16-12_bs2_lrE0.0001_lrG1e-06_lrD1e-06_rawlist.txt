@@ -1,7 +1,0 @@
-['epoch', 'generator and encoder train error', 'discriminator train accuracy', 'recognizer train error', 'generator and encoder val error', 'discriminator val accuracy', 'recognizer val error']
-[311, 318, 317, 323, 335]
-[0, 0, 0, 0, 0]
-[1, 1, 1, 1, 1]
-[321, 348, 364, 389, 336]
-[0, 0, 0, 0, 0]
-[0, 0, 0, 0, 0]

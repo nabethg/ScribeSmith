@@ -1,6 +1,0 @@
-epoch,generator and encoder train error,discriminator train accuracy,recognizer train error,generator and encoder val error,discriminator val accuracy,recognizer val error
-0,363.24249267578125,0.5,tensor(1.0201),361.1654968261719,0.5,tensor(0.9795)
-1,358.3584899902344,0.5,tensor(0.9578),361.6285400390625,0.5,tensor(1.0193)
-2,343.0215148925781,0.5,tensor(1.1556),353.9716491699219,0.5,tensor(1.0451)
-3,356.1856994628906,0.5,tensor(0.9002),344.5840148925781,0.5,tensor(0.9193)
-4,342.3279724121094,0.55,tensor(0.9456),373.1546325683594,0.5,tensor(0.9221)
