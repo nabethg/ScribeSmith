@@ -19,16 +19,14 @@ The group agrees that there were only slight differences in individual contribut
 
 ## Setup
 
-Some basic written instructions:
+The easiest way to set up this project locally is to use [conda](https://docs.conda.io/en/latest/). Verify that conda installed properly and added to `PATH` by checking `conda --version`.
 
-- have conda installed (mini or normal)
-  - conda version
-- install the following from environment.yml
-  - for both windows and linux
-- some basic info pulled from conda env?
-  - conda env create and conda activate
-- how to install from conda env
-  - conda env update
+To set up the conda environment, run:
+
+```bash
+conda env create -f environment.yml
+conda activate aps360
+```
 
 ## `data` File Structure
 
