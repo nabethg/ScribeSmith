@@ -17,7 +17,7 @@ The group agrees that there were only slight differences in individual contribut
 - Ran (Andy) Gong ([AG2048](https://github.com/AG2048))
 - Zerui (Kevin) Wang ([Togohogo1](https://github.com/Togohogo1))
 
-## Dataset File Structure
+## `data` File Structure
 
 As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To ensure proper data loading without error:
 
@@ -40,7 +40,7 @@ The end result should look something like this:
   │   └── lines.txt
 ```
 
-## Model File Structure
+## `models` File Structure
 
 To ensure the proper functionality of the Jupyter Notebook files, various subdirectories under `models/` must be created according to the file structure below (only directories shown):
 
