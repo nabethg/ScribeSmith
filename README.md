@@ -17,6 +17,19 @@ The group agrees that there were only slight differences in individual contribut
 - Ran (Andy) Gong ([AG2048](https://github.com/AG2048))
 - Zerui (Kevin) Wang ([Togohogo1](https://github.com/Togohogo1))
 
+## Setup
+
+Some basic written instructions:
+
+- have conda installed (mini or normal)
+  - conda version
+- install the following from environment.yml
+  - for both windows and linux
+- some basic info pulled from conda env?
+  - conda env create and conda activate
+- how to install from conda env
+  - conda env update
+
 ## `data` File Structure
 
 As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To ensure proper data loading without error:
@@ -53,21 +66,6 @@ To ensure the proper functionality of the Jupyter Notebook files, various subdir
 + ├── recognizers/
   └── shakespeare_demo_handwritten/
 ```
-
-## Setup
-
-Some basic written instructions:
-
-- have conda installed (mini or normal)
-  - conda version
-- install the following from environment.yml
-  - for both windows and linux
-- some basic info pulled from conda env?
-  - conda env create and conda activate
-- how to install from conda env
-  - conda env update
-
-When going through all the code, decide on what to remove and include in the .gitignore
 
 ## Acknowledgments
 
