@@ -31,11 +31,11 @@ The end result should look something like this:
 ├── data/
 │   ├── chars/
 │   │   ├── 02/
-│   │   │   ...
+│   │   │   ⋮
 │   │   └── 72/
 │   ├── lines/
 │   │   ├── a01/
-│   │   │   ...
+│   │   │   ⋮
 │   │   └── r06/
 │   └── lines.txt
 ```
