@@ -10,16 +10,16 @@ data/lines_improved_recognizer.txt
 # Ignore modified database line information file for the main network
 data/lines_improved.txt
 
-# macOS Stuff
+# macOS stuff
 .DS_Store
 
-# Jupyter notebook checkpoints
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # All file locations with models and their information
 models/recognizers/
 models/main_model/
-# Ignore all .pt files
+# Ignore all .pt files (specifically baseline_model_outputs.pt and other random .pt files)
 *.pt
 # Except those in models_export/
 !/models_export/*.pt

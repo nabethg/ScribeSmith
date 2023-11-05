@@ -28,6 +28,8 @@ conda env create -f environment.yml
 conda activate aps360
 ```
 
+**Warning**: This has only been tested on Linux
+
 ## `data` File Structure
 
 As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To ensure proper data loading without error:
