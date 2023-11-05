@@ -40,33 +40,7 @@ The end result should look something like this:
 │   └── lines.txt
 ```
 
-## Acknowledgments
-
-This project was part of the [APS360](https://engineering.calendar.utoronto.ca/course/aps360h1) course offered by the [University of Toronto Faculty of Applied Science and Engineering](https://www.engineering.utoronto.ca/).
-
-The [report](docs/report) Latex template has been derived from the assignment guideline.
-
-### Notes
-
-Visit <https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database>:
-
-- Download data/ascii.tgz and unzip only lines.txt into the data folder
-- Download data/lines.tgz - Contains t and unzip to
-
-The final file directory should look smth like this:
-
-```text
-./
-├── data/
-│   ├── lines/
-│   ├── sentences/
-│   ├── words/
-│   ├── lines.txt
-│   ├── sentences.txt
-│   └── words.txt
-```
-
-<https://github.com/nabethg/ScribeSmith/tree/010124a50fc1e47df7b9611344bbf29f2d4c1dd6/testing_stuff> is the last commit with the raw files before reformat
+## Setup
 
 Some basic written instructions:
 
@@ -80,3 +54,9 @@ Some basic written instructions:
   - conda env update
 
 When going through all the code, decide on what to remove and include in the .gitignore
+
+## Acknowledgments
+
+This project was part of the [APS360](https://engineering.calendar.utoronto.ca/course/aps360h1) course offered by the [University of Toronto Faculty of Applied Science and Engineering](https://www.engineering.utoronto.ca/).
+
+The [report](docs/report) Latex template has been derived from the assignment guideline.
