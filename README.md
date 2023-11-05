@@ -17,6 +17,29 @@ The group agrees that there were only slight differences in individual contribut
 - Ran (Andy) Gong ([AG2048](https://github.com/AG2048))
 - Zerui (Kevin) Wang ([Togohogo1](https://github.com/Togohogo1))
 
+## Dataset File Structure
+
+As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To run the Jupyter Notebook files without error:
+
+- Download and unzip `data/ascii.tgz` and move only `lines.txt` into the `data/` folder
+- Download and unzip `data/lines.tgz` into `data/lines/`
+
+The end result should look something like this:
+
+```text
+./
+├── data/
+│   ├── chars/
+│   │   ├── 02/
+│   │   │   ...
+│   │   └── 72/
+│   ├── lines/
+│   │   ├── a01/
+│   │   │   ...
+│   │   └── r06/
+│   └── lines.txt
+```
+
 ## Acknowledgments
 
 This project was part of the [APS360](https://engineering.calendar.utoronto.ca/course/aps360h1) course offered by the [University of Toronto Faculty of Applied Science and Engineering](https://www.engineering.utoronto.ca/).
