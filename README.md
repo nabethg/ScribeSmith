@@ -19,25 +19,39 @@ The group agrees that there were only slight differences in individual contribut
 
 ## Dataset File Structure
 
-As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To run the Jupyter Notebook files without error:
+As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To ensure proper data loading without error:
 
 - Download and unzip `data/ascii.tgz` and move only `lines.txt` into the `data/` folder
 - Download and unzip `data/lines.tgz` into `data/lines/`
 
 The end result should look something like this:
 
-```text
-./
-├── data/
-│   ├── chars/
-│   │   ├── 02/
-│   │   │   ⋮
-│   │   └── 72/
-│   ├── lines/
-│   │   ├── a01/
-│   │   │   ⋮
-│   │   └── r06/
-│   └── lines.txt
+```diff
+  ./
+  ├── data/
+  │   ├── chars/
+  │   │   ├── 02/
+  │   │   │   ⋮
+  │   │   └── 72/
++ │   ├── lines/
++ │   │   ├── a01/
++ │   │   │   ⋮
++ │   │   └── r06/
+  │   └── lines.txt
+```
+
+## Model File Structure
+
+To ensure the proper functionality of the Jupyter Notebook files, various subdirectories under `models/` must be created according to the file structure below (only directories shown):
+
+```diff
+  models/
++ ├── main_model/
++ │   ├── model_snapshots/
++ │   ├── model_training_information/
++ │   └── model_training_information_rawlist/
++ ├── recognizers/
+  └── shakespeare_demo_handwritten/
 ```
 
 ## Setup
