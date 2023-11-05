@@ -1,7 +1,9 @@
 data/lines
 data/_lines
-data/sentences.txt
-data/words.txt
+
+# Dataset indexing files (ground truth and other info
+# Includes modified indexing files for specific model purposes as well
+data/lines.txt
 main_model/model_snapshots
 recognizers/
 _recognizers/
