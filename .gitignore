@@ -17,8 +17,8 @@ data/lines_improved.txt
 .ipynb_checkpoints
 
 # All file locations with models and their information
-models/recognizers/
-models/main_model/
+src/recognizers/
+src/main_model/
 # Ignore all .pt files (specifically baseline_model_outputs.pt and other random .pt files)
 *.pt
 # Except those in models_export/

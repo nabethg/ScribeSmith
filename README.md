@@ -42,12 +42,12 @@ The end result should look something like this:
 + │   └── lines.txt
 ```
 
-## `models/` File Structure
+## `src/` File Structure
 
-To ensure the proper functionality of the Jupyter Notebook files, various subdirectories under `models/` must be created according to the file structure below (only directories shown):
+To ensure the proper functionality of the Jupyter Notebook files, various subdirectories under `src/` must be created according to the file structure below (only directories shown):
 
 ```diff
-  models/
+  src/
 + ├── main_model/
 + │   ├── model_snapshots/
 + │   ├── model_training_information/
@@ -56,7 +56,7 @@ To ensure the proper functionality of the Jupyter Notebook files, various subdir
   └── shakespeare_demo_handwritten/
 ```
 
-## Contributors
+## Developers
 
 The group agrees that there were only slight differences in individual contribution proportions.
 
