@@ -50,7 +50,7 @@ The end result should look something like this:
 + │   │   ├── a01/
 + │   │   │   ⋮
 + │   │   └── r06/
-  │   └── lines.txt
++ │   └── lines.txt
 ```
 
 ## `models/` File Structure
