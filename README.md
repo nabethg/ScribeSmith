@@ -30,7 +30,7 @@ conda activate aps360
 
 ⚠️ **Warning**: This has only been tested on Linux
 
-## `data` File Structure
+## `data/` File Structure
 
 As stated above, our training data is from the IAM Handwriting Database, available [here](https://fki.tic.heia-fr.ch/databases/download-the-iam-handwriting-database). To ensure proper data loading without error:
 
@@ -53,7 +53,7 @@ The end result should look something like this:
   │   └── lines.txt
 ```
 
-## `models` File Structure
+## `models/` File Structure
 
 To ensure the proper functionality of the Jupyter Notebook files, various subdirectories under `models/` must be created according to the file structure below (only directories shown):
 
