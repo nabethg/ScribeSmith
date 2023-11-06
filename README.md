@@ -8,15 +8,6 @@ The [report](docs/report/report.pdf) outlines an implementation of a **Generativ
 |:--:|
 | *High-level overview of the ScribeSmith model* |
 
-## Contributors
-
-The group agrees that there were only slight differences in individual contribution proportions.
-
-- Aniruddh Aragola ([Aniruddh00001](https://github.com/Aniruddh00001))
-- Nabeth Ghazi ([nabethg](https://github.com/nabethg))
-- Ran (Andy) Gong ([AG2048](https://github.com/AG2048))
-- Zerui (Kevin) Wang ([Togohogo1](https://github.com/Togohogo1))
-
 ## Setup
 
 The easiest way to set up this project locally is to use [conda](https://docs.conda.io/en/latest/). Verify that conda installed properly and added to `PATH` by checking `conda --version`.
@@ -25,10 +16,8 @@ To set up the conda environment, run:
 
 ```bash
 conda env create -f environment.yml
-conda activate aps360
+conda activate scribesmith
 ```
-
-⚠️ **Warning**: This has only been tested on Linux
 
 ## `data/` File Structure
 
@@ -66,6 +55,15 @@ To ensure the proper functionality of the Jupyter Notebook files, various subdir
 + ├── recognizers/
   └── shakespeare_demo_handwritten/
 ```
+
+## Contributors
+
+The group agrees that there were only slight differences in individual contribution proportions.
+
+- Aniruddh Aragola ([Aniruddh00001](https://github.com/Aniruddh00001))
+- Nabeth Ghazi ([nabethg](https://github.com/nabethg))
+- Ran (Andy) Gong ([AG2048](https://github.com/AG2048))
+- Zerui (Kevin) Wang ([Togohogo1](https://github.com/Togohogo1))
 
 ## Acknowledgments
 
